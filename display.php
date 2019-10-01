@@ -19,7 +19,7 @@
         $headers[] = 'Sec-Fetch-Site: none';
         $headers[] = 'Accept-Encoding: gzip, deflate, br';
         $headers[] = 'Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7';
-        $headers[] = 'Cookie: _ga=GA1.2.851516099.1569678791; _gid=GA1.2.1377099633.1569849279; SESSION=9772a645-5d1d-46db-ae24-789485459439; XSRF-TOKEN=1a3e6618-03f4-45db-b9f7-6ee1e9c6626c';
+        $headers[] = 'Cookie: SESSION=9772a645-5d1d-46db-ae24-789485459439';
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         $result = curl_exec($ch);
