@@ -1,0 +1,22 @@
+#form{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+}
+.start{
+    
+    
+}
+.end{
+    
+    padding-left: 1em;
+}
+.btn{
+    
+    margin-top: 5px; 
+}
+.start,.end,.btn{
+    padding: 1em;
+
+}
