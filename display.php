@@ -42,4 +42,24 @@
         //timeCrTimeTo = fin
         //srvTimeCrDateFrom = date
     }
+
 ?>
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Planning</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div>
+      <form action="/.controller.php" method="get" id="form">
+          <input type="date" name="dateA"/>
+          <input type="date" name="dateA"/>
+         <button> Submit </button>
+      </form>
+  </div>
+</body>
+</html>
